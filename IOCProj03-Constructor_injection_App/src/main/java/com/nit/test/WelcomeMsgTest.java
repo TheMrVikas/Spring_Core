@@ -22,6 +22,7 @@ public class WelcomeMsgTest {
 			bean = (WelcomeMsg) factory.getBean("wmsg");
 			String msg = bean.getWelcomeMsg("Vikas");
 			System.out.println("Welcome msg = "+msg);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
